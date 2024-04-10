@@ -1,7 +1,9 @@
 # Commands
 
-> Set user for git
+> Set user / email for git
 git config user.name
+git config user.email
 
-> Set user for git
+> Set user / email for git
 git config --global user.name "USER NAME"
+git config --global user.email "USER EMAIL"
