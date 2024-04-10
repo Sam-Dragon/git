@@ -1,4 +1,7 @@
 # Commands
 
 > Set user for git
+git config user.name
+
+> Set user for git
 git config --global user.name "USER NAME"
