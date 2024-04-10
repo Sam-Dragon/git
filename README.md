@@ -15,3 +15,5 @@
 - collaborate and share changes
 - combine changes
 
+# Git Vs Github
+- Git is VCS that run locally in machine where as github is a service which hosts repositories remotely
