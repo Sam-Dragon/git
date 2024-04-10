@@ -6,6 +6,7 @@
 
 # GIT
 - decentralized distributed version control system
+- It needs name and email
 
 > Features
 - track changes across multiple files
