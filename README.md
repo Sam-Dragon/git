@@ -18,3 +18,6 @@
 
 # Git Vs Github
 - Git is VCS that run locally in machine where as github is a service which hosts repositories remotely
+
+# Git Repo
+- it is a workspace which tracks and manages files within folder
