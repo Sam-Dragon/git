@@ -29,8 +29,8 @@ git add .
 # Commit files
 - It add staged area [Objects folder + index file in ".git" folder] to repository
 - It will update objects folder & index file, it will create new file called 'COMMIT_EDITMSG' & folder 'logs' & it will update 'git\refs\heads' with master file
-[Not Recommended] git commit
-[Recommended]     git commit -m "commit message"
+git commit                          [Not Recommended]
+git commit -m "commit message"      [Recommended]
 
 # Show History
 - It will read all the committed files from 'logs' folder under '.git' folder
