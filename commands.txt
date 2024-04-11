@@ -32,6 +32,9 @@ git add .
 git commit                          [Not Recommended]
 git commit -m "commit message"      [Recommended]
 
+- To replace the latest version of commit, use ammend
+git commit --amend
+
 # Show History
 - It will read all the committed files from 'logs' folder under '.git' folder
 git log
