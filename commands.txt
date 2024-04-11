@@ -35,4 +35,5 @@ git commit -m "commit message"      [Recommended]
 # Show History
 - It will read all the committed files from 'logs' folder under '.git' folder
 git log
+git log --oneline
 
