@@ -1,13 +1,16 @@
-# Commands
+## Commands
 
-> Set user / email for git
+# Set user / email for git
 git config user.name
 git config user.email
 
-> Set user / email for git
+# Set user / email for git
 git config --global user.name "USER NAME"
 git config --global user.email "USER EMAIL"
 
-> Create repo 
-- It works on the existing projects
+# Create repo 
+- It works on the existing projects. Marks the current directory to tracked by git
 git init
+
+# Check status
+git status
