@@ -7,3 +7,7 @@ git config user.email
 > Set user / email for git
 git config --global user.name "USER NAME"
 git config --global user.email "USER EMAIL"
+
+> Create repo 
+- It works on the existing projects
+git init
