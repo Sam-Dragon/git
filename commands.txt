@@ -10,6 +10,7 @@ git config --global user.email "USER EMAIL"
 
 # Create repo 
 - It works on the existing projects. Marks the current directory to tracked by git
+- It creates ".git" folder
 git init
 
 # Check status
@@ -19,8 +20,10 @@ git status
 # Git workflow
 git add, git commit
 
+# Add files
 - It add local files to staging area
 git add 
 
+# Commit files
 - It add staged area to repository
 git commit
