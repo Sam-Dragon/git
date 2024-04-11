@@ -22,8 +22,17 @@ git add, git commit
 
 # Add files
 - It add local files to staging area
-git add 
+- It will be save / update in objects folder & it will be create in index file
+git add <FOLDER> <FILE>
+git add .
 
 # Commit files
-- It add staged area to repository
+- It add staged area [Objects folder + index file in ".git" folder] to repository
+- It will update objects folder & index file, it will create new file called 'COMMIT_EDITMSG' & folder 'logs' & it will update 'git\refs\heads' with master file
 git commit
+git commit -m "commit message"
+
+# Show History
+- It will read all the committed files from 'logs' folder under '.git' folder
+git log
+
