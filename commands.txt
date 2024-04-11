@@ -17,6 +17,8 @@ git init
 git status
 
 # Git workflow
+git add, git commit
+
 - It add local files to staging area
 git add 
 
