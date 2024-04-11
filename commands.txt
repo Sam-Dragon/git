@@ -9,10 +9,16 @@ git config --global user.name "USER NAME"
 git config --global user.email "USER EMAIL"
 
 # Create repo 
-git init
 - It works on the existing projects. Marks the current directory to tracked by git
+git init
 
 # Check status
-git status
 - It give current status of git. basically, it shows branch name & untracked files
+git status
 
+# Git workflow
+- It add local files to staging area
+git add 
+
+- It add staged area to repository
+git commit
