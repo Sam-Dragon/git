@@ -38,6 +38,10 @@ git commit -m "commit message"      [Recommended]
 - To replace the latest version of commit, use ammend
 git commit --amend
 
+# Add & Commit files
+git commit -a -m "COMMIT MESSAGE"
+git commit -am "COMMIT MESSAGE"
+
 # Show History
 - It will read all the committed files from 'logs' folder under '.git' folder
 git log
