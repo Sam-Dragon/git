@@ -40,3 +40,5 @@ git commit --amend
 git log
 git log --oneline
 
+# Git Branch
+git branch
