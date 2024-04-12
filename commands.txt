@@ -86,4 +86,5 @@ git switch [Recommnded]
 
 # Git Merge
 - we merge branches not commits
-git merge 
+- Before we merge, we need to switch to base branch
+git merge <BRANCH TO MERGE>
