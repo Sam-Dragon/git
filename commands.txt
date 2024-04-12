@@ -48,5 +48,8 @@ git log --oneline
 - it indicates the current branch
 git branch
 
-> Create
+> Create 
 git branch <BRANCH NAME>
+
+> Switch
+git switch <BRANCH NAME>
