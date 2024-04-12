@@ -78,7 +78,7 @@ git branch -D <EXISTING BRANCH NAME>
 
 > Rename branch
 - Make sure we are on same branch which needs to be renamed
-git branch -m <EXISTING BRANCH NAME>
+git branch -m <NEW BRANCH NAME>
 
 # Git Switch Vs Git Checkout
 - git switch just focuses on branch switch where as git check along with branch it even restores the files of the branch
