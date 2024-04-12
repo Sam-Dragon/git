@@ -52,15 +52,22 @@ git log --oneline
 - it indicates the current branch
 git branch
 
-# Create branch
+> Create branch
 git branch <BRANCH NAME>
 
-# Switch between branches
+> Switch between branches
 git switch <BRANCH NAME>
 git checkout <BRANCH NAME>
 
-# Create & Switch
+> Create & Switch
 git switch -c <NEW BRANCH NAME>
+
+# Git Checkout
+git checkout <BRANCH NAME>
+
+> Create branch
+git checkout -b <BRANCH NAME>
+
 
 # Git Switch Vs Git Checkout
 - git switch just focuses on branch switch where as git check along with branch it even restores the files of the branch
