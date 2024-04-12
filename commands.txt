@@ -1,5 +1,8 @@
 ## Commands
 
+Note:
+git branch & git status both will show the branch name [current]
+
 # Set user / email for git
 git config user.name
 git config user.email
@@ -38,7 +41,12 @@ git commit --amend
 # Show History
 - It will read all the committed files from 'logs' folder under '.git' folder
 git log
-git log --oneline
+git log --oneline  
 
 # Git Branch
+- it is the reference to the commit.
+- it indicates the current branch
 git branch
+
+> Create
+git branch <BRANCH NAME>
