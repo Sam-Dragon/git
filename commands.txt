@@ -85,10 +85,6 @@ git branch -m <NEW BRANCH NAME>
 - git switch just focuses on branch switch where as git check along with branch it even restores the files of the branch
 git switch [Recommnded]
 
-# Git Difference
-- Before we merge, we need to see the differences in files whether it can conflit
-git diff <BRANCH TO MERGE> <BASE BRANCH>
-
 # Git Merge
 - we merge branches not commits
 - Before we merge, we need to switch to base branch
@@ -96,7 +92,15 @@ git merge <BRANCH TO MERGE>
 
 # Types 
 - Fastforward Merge
-- 
+- Non-Fastforward Merge
 
 > Fastforward Merge
-- Merge the branches without conflicts
+- Merge the branches where there are no conflicts
+- It may be new files added
+
+> Non-Fastforward Merge
+- conflicts will be present in the file
+
+# Git Difference
+- Before we merge, we need to see the differences in files whether it can conflit
+git diff <BRANCH TO MERGE> <BASE BRANCH>
