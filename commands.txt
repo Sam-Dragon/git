@@ -51,6 +51,7 @@ git log --oneline
 - it is the reference to the commit.
 - it indicates the current branch
 git branch
+git branch -v
 
 > Create branch
 git branch <BRANCH NAME>
