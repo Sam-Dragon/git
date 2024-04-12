@@ -69,15 +69,16 @@ git checkout <BRANCH NAME>
 git checkout -b <BRANCH NAME>
 
 > Delete branch
+- If branch to delete is same as current branch. It will fail, so switch to other branch
 - To delete local and remote repositories
 git branch -d <EXISTING BRANCH NAME>
 
 - To delete local repositories
 git branch -D <EXISTING BRANCH NAME>
 
-
 > Rename branch
-git branch -d <EXISTING BRANCH NAME>
+- Make sure we are on same branch which needs to be renamed
+git branch -m <EXISTING BRANCH NAME>
 
 # Git Switch Vs Git Checkout
 - git switch just focuses on branch switch where as git check along with branch it even restores the files of the branch
