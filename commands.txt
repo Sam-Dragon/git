@@ -185,3 +185,14 @@ git restore --source HEAD~2 <FILE NAME>
 
 - It restores to the staged point and skips new files
 git restore --staged <FILE NAME>
+
+# Git Reset
+- resets the branch to specific commit but doesnt make changes in working directory 
+git reset <COMMIT HASH>
+
+- resets the branch to specific commit & make changes in working directory 
+git reset --hard <COMMIT HASH>
+
+# Git Revert
+- similar to reset but creates additional commit with all files reverted for backtrack instead of direct cleaning of files
+git revert <COMMIT HASH>
