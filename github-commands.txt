@@ -1,0 +1,2 @@
+# GitHub
+- It is software service to host remote repositories from git
