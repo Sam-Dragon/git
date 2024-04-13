@@ -104,7 +104,12 @@ git merge <BRANCH TO MERGE>
 # Git Difference
 - Before we merge, we need to see the differences in files whether it can conflit
 - compares staging area [Existing Files modified but not committed to branch] and current working directory
+shows only files modified but not newly added files 
 git diff
+
+> Difference with HEAD
+- It shows all the changes in staging area including newly added files
+git diff HEAD
 
 > Compare branches
 git diff <BRANCH TO MERGE> <BASE BRANCH>
