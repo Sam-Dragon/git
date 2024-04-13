@@ -103,4 +103,8 @@ git merge <BRANCH TO MERGE>
 
 # Git Difference
 - Before we merge, we need to see the differences in files whether it can conflit
+- compares staging area [Existing Files modified but not committed to branch] and current working directory
+git diff
+
+> Compare branches
 git diff <BRANCH TO MERGE> <BASE BRANCH>
