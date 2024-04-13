@@ -153,7 +153,8 @@ git stash apply
 git stash apply stash@{id} --> id from stash list
 
 > Delete Stash
-= Remove specific stash
+- Remove specific stash if provided else starts with index 0
+git stash drop 
 git stash drop stash@{id} --> id from stash list
 
 > Clear Stash
