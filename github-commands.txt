@@ -8,5 +8,12 @@
 - local copy the project from remote repositories 
 git clone <URL>
 
-# Set Remote
+# Remote Repo
+> Set
 git remote add <GIT REPOSITORY URL>
+
+> Rename
+git remote rename <OLD> <NEW>
+
+> Remove
+git remote remove <NAME>
