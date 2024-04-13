@@ -121,6 +121,12 @@ git diff --staged [FILE]
 - It shows all files staging area which are newly added
 git diff --cached
 
+> Direct branch
+- It compares the branch with staged area
+git branch <BRANCH NAME>
+
 > Compare branches
+- It compares two branches
+git diff <BRANCH TO MERGE>..<BASE BRANCH>
 git diff <BRANCH TO MERGE> <BASE BRANCH>
 
