@@ -73,6 +73,9 @@ git switch -c <NEW BRANCH BASED ON COMMIT ID>
 - To Return
 git switch <BRANCH> --> TO RE_ATTACH
 
+> Another way to get commits using HEAD~MINUS_COMMIT
+git checkout HEAD~1
+
 > Create branch
 git checkout -b <BRANCH NAME>
 
