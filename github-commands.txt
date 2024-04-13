@@ -1,4 +1,5 @@
 # GitHub
 - It is software service for hosting remote repositories from git.
-- It is stored on cloud and can be provided access to any person in the world
+- It is stored on cloud and can be used for collobaration to any user in the world
 - It required an account to access the repositories
+
