@@ -136,4 +136,19 @@ git diff <ANY COMMIT>..<BASE COMMIT>
 git diff <ANY COMMIT> <BASE COMMIT>
 
 # Stashing
-- It is the process of saving the uncommitted files of one branch and save it. so that we can switch to another branch 
+- It is the process of saving the uncommitted changes of one branch and save it. so that we can switch to another branch 
+- It saves the work of current branch temporarily without commiting it
+git stash [= git stash save]
+
+> Show stashes
+git stash show
+
+> Remove from the stash & apply on working copy
+- It basically takes the stashed changes & makes it avialable for commiting
+git stash pop
+
+> Keep in the stash & apply on working copy [Recommended]
+- It basically takes the stashed changes and shows it
+git stash apply
+
+
