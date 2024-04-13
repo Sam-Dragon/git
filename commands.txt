@@ -66,15 +66,15 @@ git switch -c <NEW BRANCH NAME>
 # Git Checkout
 git checkout <BRANCH NAME>
 
-> Go back in time & create new branch
+> Go back in time & create new branch using commit id
 git checkout <COMMIT ID> --> DETACHED HEAD
 git switch -c <NEW BRANCH BASED ON COMMIT ID>
 
-- To Return
-git switch <BRANCH> --> TO RE_ATTACH
-
 > Another way to get commits using HEAD~MINUS_COMMIT
 git checkout HEAD~1
+
+- To Return
+git switch <BRANCH> --> TO RE_ATTACH
 
 > Create branch
 git checkout -b <BRANCH NAME>
