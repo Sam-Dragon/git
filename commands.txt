@@ -130,3 +130,7 @@ git branch <BRANCH NAME>
 git diff <BRANCH TO MERGE>..<BASE BRANCH>
 git diff <BRANCH TO MERGE> <BASE BRANCH>
 
+> Compare commits
+- It compares two commits
+git diff <ANY COMMIT>..<BASE COMMIT>
+git diff <ANY COMMIT> <BASE COMMIT>
