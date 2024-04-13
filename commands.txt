@@ -134,3 +134,6 @@ git diff <BRANCH TO MERGE> <BASE BRANCH>
 - It compares two commits
 git diff <ANY COMMIT>..<BASE COMMIT>
 git diff <ANY COMMIT> <BASE COMMIT>
+
+# Stashing
+- It is the process of saving the uncommitted files of one branch and save it. so that we can switch to another branch 
