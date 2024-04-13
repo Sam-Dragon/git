@@ -65,6 +65,7 @@ git switch -c <NEW BRANCH NAME>
 
 # Git Checkout
 git checkout <BRANCH NAME>
+git checkout <COMMIT ID> --> DETACHED HEAD
 
 > Create branch
 git checkout -b <BRANCH NAME>
