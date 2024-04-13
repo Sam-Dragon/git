@@ -79,6 +79,10 @@ git checkout HEAD~1
 - To Return
 git switch <BRANCH> --> TO RE_ATTACH
 
+> Remove the changes from files
+git checkout HEAD <FILENAME>
+git checkout -- <FILENAME>
+
 > Create branch
 git checkout -b <BRANCH NAME>
 
@@ -173,3 +177,11 @@ git stash drop stash@{id} --> id from stash list
 > Clear Stash
 - Remove all the stashes
 git stash clear 
+
+# Git Restore
+- Restores the file to the specific point
+git restore <FILE NAME>
+git restore --source HEAD~2 <FILE NAME>
+
+- It restores to the staged point and skips new files
+git restore --staged <FILE NAME>
