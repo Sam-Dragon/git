@@ -110,6 +110,17 @@ git diff
 > Difference with HEAD
 - It shows all the changes in staging area including newly added files
 git diff HEAD
+git diff HEAD [FILE]
+
+> Show only staged changes
+- It shows all files staging area which are newly added
+git diff --staged
+git diff --staged [FILE]
+
+> Show only cached changes
+- It shows all files staging area which are newly added
+git diff --cached
 
 > Compare branches
 git diff <BRANCH TO MERGE> <BASE BRANCH>
+
