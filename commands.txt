@@ -65,7 +65,10 @@ git switch -c <NEW BRANCH NAME>
 
 # Git Checkout
 git checkout <BRANCH NAME>
+
+> Go back in time & return
 git checkout <COMMIT ID> --> DETACHED HEAD
+git switch <BRANCH> --> TO RE_ATTACH
 
 > Create branch
 git checkout -b <BRANCH NAME>
