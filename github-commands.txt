@@ -2,4 +2,8 @@
 - It is software service for hosting remote repositories from git.
 - It is stored on cloud and can be used for collobaration to any user in the world
 - It required an account to access the repositories
+- It can clone any hosted repositories
 
+# Cloning
+- local copy the project from remote repositories 
+git clone <URL>
