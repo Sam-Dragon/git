@@ -7,3 +7,6 @@
 # Cloning
 - local copy the project from remote repositories 
 git clone <URL>
+
+# Set Remote
+git remote add <GIT REPOSITORY URL>
