@@ -38,6 +38,8 @@ git push -u <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
 git push <REMOTE NAME> --delete <BRANCH NAME>
 
 # Pulling
+- Code: It will download the code to local but doesnt make any change in working repository 
+- It is combination of GIT MERGE + GET FETCH
 git pull <REMOTE NAME> <BRANCH>
 
 > Connect Local branch to Master Branch & later we can just use "git pull"
