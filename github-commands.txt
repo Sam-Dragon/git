@@ -10,7 +10,7 @@ git clone <URL>
 
 # Remote Repo
 > Set
-git remote add <GIT REPOSITORY URL>
+git remote add <LOCAL BRANCH> <GIT REPOSITORY URL>
 
 > Rename
 git remote rename <OLD> <NEW>
