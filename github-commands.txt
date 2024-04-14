@@ -31,6 +31,9 @@ git push <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
 > Connect Local branch to Master Branch & later we can just use "git push"
 git push -u <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
 
+> To delete remote branches
+git push <REMOTE NAME> --delete <BRANCH NAME>
+
 # Pulling
 git pull <REMOTE NAME> <BRANCH>
 
