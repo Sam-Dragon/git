@@ -57,6 +57,7 @@ git branch -v
 git branch <BRANCH NAME>
 
 > Switch between branches
+- It can even connect to remote branch
 git switch <BRANCH NAME>
 git checkout <BRANCH NAME>
 
