@@ -22,6 +22,9 @@ git remote remove <NAME>
 > Verbose
 git remote -v
 
+> View all remote branchs 
+git remote -r
+
 # Pushing
 git push <REMOTE NAME> <BRANCH>
 
@@ -39,3 +42,7 @@ git pull <REMOTE NAME> <BRANCH>
 
 > Connect Local branch to Master Branch & later we can just use "git pull"
 git pull -u <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
+
+# Fetch
+  - It pulls the all branches on remote to local
+git fetch
