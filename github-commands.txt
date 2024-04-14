@@ -1,0 +1,51 @@
+# GitHub
+- It is software service for hosting remote repositories from git.
+- It is stored on cloud and can be used for collobaration to any user in the world
+- It required an account to access the repositories
+- It can clone any hosted repositories
+
+# Cloning
+- local copy the project from remote repositories 
+- It configures git for you & connects local to remote branch
+git clone <URL>
+
+# Remote Repo
+> Set
+git remote add <LOCAL BRANCH> <GIT REPOSITORY URL>
+
+> Rename
+git remote rename <OLD> <NEW>
+
+> Remove
+git remote remove <NAME>
+
+> Verbose
+git remote -v
+
+> View all remote branchs 
+git remote -r
+
+# Pushing
+git push <REMOTE NAME> <BRANCH>
+
+> Local branch can be different compare to master
+git push <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
+
+> Connect Local branch to Master Branch & later we can just use "git push"
+git push -u <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
+
+> To delete remote branches
+git push <REMOTE NAME> --delete <BRANCH NAME>
+
+# Pulling
+git pull <REMOTE NAME> <BRANCH>
+
+> Connect Local branch to Master Branch & later we can just use "git pull"
+git pull -u <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
+
+# Fetch
+- branch: It pulls the all branches on remote to local 
+- Code: It will download the code to local but doesnt make any change in working repository 
+git fetch <REMOTE NAME>
+git fetch <REMOTE NAME> <BRANCH>
+
