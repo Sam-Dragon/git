@@ -20,3 +20,9 @@ git remote remove <NAME>
 
 > Verbose
 git remote -v
+
+# Pushing
+git push <REMOTE NAME> <BRANCH>
+
+# Pulling
+git pull <REMOTE NAME> <BRANCH>
