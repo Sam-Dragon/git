@@ -17,3 +17,6 @@ git remote rename <OLD> <NEW>
 
 > Remove
 git remote remove <NAME>
+
+> Verbose
+git remote -v
