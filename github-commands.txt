@@ -52,3 +52,10 @@ git pull -u <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
 git fetch <REMOTE NAME>
 git fetch <REMOTE NAME> <BRANCH>
 
+# Git fetch vs Git Merge
+- fetch gets changes from remote branch and updates all remote branch 
+whereas pull gets the changes from remote branch and updates current branch only
+- fetch doesnt merge any changes to HEAD branch
+whereas pull merges changes to HEAD branch of current branch
+- fetch is safe to be done anytime 
+whereas pull can result in conflicts
