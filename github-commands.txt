@@ -24,5 +24,14 @@ git remote -v
 # Pushing
 git push <REMOTE NAME> <BRANCH>
 
+> Local branch can be different compare to master
+git push <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
+
+> Connect Local branch to Master Branch & later we can just use "git push"
+git push -u <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
+
 # Pulling
 git pull <REMOTE NAME> <BRANCH>
+
+> Connect Local branch to Master Branch & later we can just use "git pull"
+git pull -u <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
