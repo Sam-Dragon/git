@@ -38,6 +38,7 @@ git push -u <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
 git push <REMOTE NAME> --delete <BRANCH NAME>
 
 # Pulling
+- branch: It pulls the all branches on remote to local but doesnt create local copy [use: git switch <BRANCH NAME>]
 - Code: It will download the code to local but doesnt make any change in working repository 
 - It is combination of GIT MERGE + GET FETCH
 git pull <REMOTE NAME> <BRANCH>
@@ -46,7 +47,7 @@ git pull <REMOTE NAME> <BRANCH>
 git pull -u <REMOTE NAME> <LOCAL BRANCH>:<REMOTE BRANCH>
 
 # Fetch
-- branch: It pulls the all branches on remote to local 
+- branch: It pulls the all branches on remote to local but doesnt create local copy [use: git switch <BRANCH NAME>]
 - Code: It will download the code to local but doesnt make any change in working repository 
 git fetch <REMOTE NAME>
 git fetch <REMOTE NAME> <BRANCH>
