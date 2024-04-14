@@ -6,6 +6,7 @@
 
 # Cloning
 - local copy the project from remote repositories 
+- It configures git for you & connects local to remote branch
 git clone <URL>
 
 # Remote Repo
