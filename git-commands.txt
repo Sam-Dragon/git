@@ -197,3 +197,6 @@ git reset --hard <COMMIT HASH>
 # Git Revert
 - similar to reset but creates additional commit with all files reverted for backtrack instead of direct cleaning of files
 git revert <COMMIT HASH>
+
+# Git Rebase
+- alternative to merging & is used as cleanup tool
