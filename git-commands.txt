@@ -200,3 +200,4 @@ git revert <COMMIT HASH>
 
 # Git Rebase
 - alternative to merging & is used as cleanup tool
+git rebase master
