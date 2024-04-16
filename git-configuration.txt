@@ -7,6 +7,6 @@ Go to current branch > Settings > Branches > Add Branch protection rule
 * Branch name pattern
 * Option to control branch flow
 
-# Copying user's code using fork option
+# Copying user's code using fork option [fork-clone framework]
 - Go to another user branch & click on "fork" option on extreme right [Code will be pulled into current user git repository]
 - In case original user changes updates the code, then take "pull request" from your repository
