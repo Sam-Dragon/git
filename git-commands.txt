@@ -200,4 +200,11 @@ git revert <COMMIT HASH>
 
 # Git Rebase
 - alternative to merging & is used as cleanup tool
+- it rebases child branch commit along with master branch
+git switch child
 git rebase master
+
+> Rewriting History
+git rebase -i HEAD~4
+
+Note: Never rewrite history of master branch when rebasing
