@@ -208,3 +208,15 @@ git rebase master
 git rebase -i HEAD~4
 
 Note: Never rewrite history of master branch when rebasing
+
+
+# Git Tagging [Symmantic Versioning]
+- It refers to a commit 
+Types: 
+light-weight - which points to particular commit
+annotated - which points to commit but can store additional info like name, email, data, message
+git tag
+
+> Symmantic Versioning
+It is a process of versioning with syntax MAJOR.MINOR.PATCH
+Ex: v2.2.1
