@@ -215,6 +215,8 @@ Note: Never rewrite history of master branch when rebasing
 Types: 
 light-weight - which points to particular commit
 annotated - which points to commit but can store additional info like name, email, data, message
+
+> View
 git tag
 
 > Symmantic Versioning
