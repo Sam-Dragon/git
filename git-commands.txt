@@ -209,6 +209,9 @@ git rebase -i HEAD~4
 
 Note: Never rewrite history of master branch when rebasing
 
+# Symmantic Versioning
+It is a process of versioning with syntax MAJOR.MINOR.PATCH
+Ex: v2.2.1
 
 # Git Tagging [Symmantic Versioning]
 - It refers to a commit 
@@ -216,13 +219,35 @@ Types:
 light-weight - which points to particular commit
 annotated - which points to commit but can store additional info like name, email, data, message
 
+> Create
+git tag <TAG_NAME>
+git tag -a <TAG_NAME>
+git tag -m <MESSAGE>
+
 > View
 git tag
 git tag -l "*beta*"
 
-> Checkout based on tag
+> Checkout 
 git checkout --tag
 
-> Symmantic Versioning
-It is a process of versioning with syntax MAJOR.MINOR.PATCH
-Ex: v2.2.1
+> Compare
+git diff <PARENT TAG> <CHILD TAG>
+
+> Show commits
+git show <TAG>
+
+> Tag existing commit
+git tag <TAG> <COMMIT>
+
+> Move b/w commits
+git tag -f <TAG>
+
+> Delete
+git tag -d <TAG>
+
+> Push 
+- push doesnt tranfer tag to remote servers by default
+- it must be pushed using 'git push'
+git push --tags
+git push --tag
