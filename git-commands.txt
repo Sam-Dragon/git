@@ -218,6 +218,10 @@ annotated - which points to commit but can store additional info like name, emai
 
 > View
 git tag
+git tag -l "*beta*"
+
+> Checkout based on tag
+git checkout --tag
 
 > Symmantic Versioning
 It is a process of versioning with syntax MAJOR.MINOR.PATCH
