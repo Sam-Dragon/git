@@ -250,4 +250,4 @@ git tag -d <TAG>
 - push doesnt tranfer tag to remote servers by default
 - it must be pushed using 'git push'
 git push --tags
-git push --tag
+git push --tags <COMMIT ID>
