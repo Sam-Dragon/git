@@ -257,4 +257,7 @@ git push --tags <COMMIT ID>
 git hash-object <File>
 
 - It retrive the data in form of key [Hash Object]
-git cat-object -p <HASH ID>
+git cat-file -p <HASH ID>
+
+- view the tree structure 
+git cat-file -p master^{tree}
