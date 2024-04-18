@@ -251,3 +251,10 @@ git tag -d <TAG>
 - it must be pushed using 'git push'
 git push --tags
 git push --tags <COMMIT ID>
+
+# Git Hashing
+- It save the data in form of key [Hash Object]
+git hash-object <File>
+
+- It retrive the data in form of key [Hash Object]
+git cat-object -p <HASH ID>
