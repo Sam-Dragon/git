@@ -266,7 +266,8 @@ git cat-file -t <HASH ID>
 git cat-file -p master^{tree}
 
 # Ref logs
-- show all the logs on provided branch
+- It helps in rescuing when commits are lost while doing 'git reset --hard' 
+- Show all the logs on provided branch
 git reflog show <BRANCH>
 
 git reflog NAME@{QUALIFIER}
@@ -274,3 +275,4 @@ git reflog NAME@{QUALIFIER}
 - It can provide time-references [Many options are there]
 git reflog NAME@{yesterday}
 git reflog NAME@{2.days.ago}
+
