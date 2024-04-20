@@ -271,6 +271,6 @@ git reflog show <BRANCH>
 
 git reflog NAME@{QUALIFIER}
 
-- It can provide time-references
+- It can provide time-references [Many options are there]
 git reflog NAME@{yesterday}
 git reflog NAME@{2.days.ago}
