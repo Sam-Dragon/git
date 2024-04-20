@@ -264,3 +264,9 @@ git cat-file -t <HASH ID>
 
 - view the tree structure 
 git cat-file -p master^{tree}
+
+# Ref logs
+- show all the logs on provided branch
+git reflog show <BRANCH>
+
+git reflog NAME@{QUALIFIER}
